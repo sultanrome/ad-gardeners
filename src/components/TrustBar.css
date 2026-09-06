@@ -1,0 +1,15 @@
+.trust-bar {
+  background: var(--green-deep);
+  padding: 20px 5%;
+  display: flex; align-items: center;
+  justify-content: center;
+  gap: 40px; flex-wrap: wrap;
+  border-top: 1px solid rgba(201,168,76,0.2);
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+.trust-item {
+  display: flex; align-items: center; gap: 9px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.88rem; font-weight: 500;
+}
+.trust-item span:first-child { font-size: 1.1rem; }

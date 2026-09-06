@@ -1,0 +1,57 @@
+.areas-section { background: var(--white); }
+
+.areas-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px; align-items: center;
+  max-width: 1200px; margin: 0 auto;
+}
+
+.areas-text .section-title { margin-top: 8px; }
+
+.postcodes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px; margin-top: 28px;
+}
+
+.postcode {
+  background: var(--green-deep);
+  color: var(--white);
+  text-align: center; padding: 12px;
+  border-radius: 8px; font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s, transform 0.2s;
+  cursor: default;
+}
+.postcode:hover {
+  background: var(--green-mid);
+  transform: scale(1.05);
+}
+
+.areas-map {
+  border-radius: var(--radius);
+  overflow: hidden; position: relative;
+  height: 380px;
+  box-shadow: var(--shadow-lg);
+}
+.areas-map img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.areas-map-overlay {
+  position: absolute; inset: 0;
+  background: rgba(27,58,45,0.45);
+  display: flex; align-items: center; justify-content: center;
+}
+.areas-map-text {
+  text-align: center; color: white;
+  font-family: 'Playfair Display', serif; font-size: 1.4rem; font-weight: 700;
+}
+.areas-pin { font-size: 2.5rem; margin-bottom: 8px; }
+.areas-sub { font-size: 0.9rem; opacity: 0.85; font-family: 'Inter', sans-serif; font-weight: 400; margin-top: 6px; }
+
+@media (max-width: 860px) {
+  .areas-inner { grid-template-columns: 1fr; }
+  .areas-map { height: 300px; }
+}
