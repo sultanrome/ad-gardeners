@@ -1,4 +1,4 @@
-﻿import './Areas.css';
+import './Areas.css';
 
 const areas = [
   { name: 'Slough',         postcodes: 'SL1-SL9' },
@@ -49,12 +49,6 @@ export default function Areas() {
               <div>Slough and Surrounds</div>
               <div className="areas-sub">Berkshire - Oxfordshire - Surrey</div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
           </div>
         </div>
       </div>
