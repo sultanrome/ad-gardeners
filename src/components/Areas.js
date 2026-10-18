@@ -49,3 +49,15 @@ export default function Areas() {
               <div>Slough and Surrounds</div>
               <div className="areas-sub">Berkshire - Oxfordshire - Surrey</div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
