@@ -16,6 +16,7 @@ export default function Footer() {
             <a href="#top" className="social-btn" aria-label="Twitter">🐦</a>
           </div>
         </div>
+
         <div className="footer-col">
           <h5>Services</h5>
           <ul>
@@ -24,14 +25,16 @@ export default function Footer() {
             ))}
           </ul>
         </div>
+
         <div className="footer-col">
           <h5>Company</h5>
           <ul>
-            {[['About Us','#why'],['Our Team','#team'],['Reviews','#reviews'],['Areas Covered','#areas'],['FAQ','#faq'],['Get a Quote','#quote']].map(([label, href]) => (
+            {[['About Us','#why'],['Areas Covered','#areas'],['FAQ','#faq'],['Get a Quote','#quote']].map(([label, href]) => (
               <li key={label}><a href={href}>{label}</a></li>
             ))}
           </ul>
         </div>
+
         <div className="footer-col">
           <h5>Contact</h5>
           <div className="footer-contact-item">
@@ -52,6 +55,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
       <div className="footer-bottom">
         <p>© 2026 AD Gardeners Slough. All rights reserved.</p>
         <div className="footer-bottom-links">
