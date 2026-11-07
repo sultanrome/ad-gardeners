@@ -80,3 +80,13 @@ footer {
 @media (max-width: 500px) {
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
 }
+
+.footer-contact-item a {
+  color: rgba(255,255,255,0.75);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-contact-item a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

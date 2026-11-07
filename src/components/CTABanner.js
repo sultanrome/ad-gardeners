@@ -7,7 +7,7 @@ export default function CTABanner() {
       <p>Join 500+ satisfied customers across Slough. Get your free quote today — no obligation.</p>
       <div className="cta-btns">
         <a href="#quote" className="btn-dark">📋 Get Free Quote</a>
-        <a href="tel:+447700000000" className="btn-ghost">📞 Call Us Now</a>
+        <a href="tel:07417486966" className="btn-ghost">📞 07417 486966</a>
       </div>
     </section>
   );

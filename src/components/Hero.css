@@ -134,3 +134,17 @@
   .hero-btns { flex-direction: column; }
   .hero-stats { gap: 16px; }
 }
+
+.form-error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin: -4px 0 8px;
+  padding: 8px 12px;
+  background: #fef2f2;
+  border-radius: 6px;
+  border-left: 3px solid #dc2626;
+}
+.quote-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}

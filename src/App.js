@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './styles/globals.css';
 import useReveal from './hooks/useReveal';
 
@@ -9,6 +9,8 @@ import Services  from './components/Services';
 import HowItWorks from './components/HowItWorks';
 import WhyUs     from './components/WhyUs';
 import Gallery   from './components/Gallery';
+import Reviews   from './components/Reviews';
+import Team      from './components/Team';
 import Areas     from './components/Areas';
 import FAQ       from './components/FAQ';
 import CTABanner from './components/CTABanner';
@@ -33,6 +35,8 @@ export default function App() {
       <HowItWorks />
       <WhyUs />
       <Gallery />
+      <Reviews />
+      <Team />
       <Areas />
       <FAQ />
       <CTABanner />

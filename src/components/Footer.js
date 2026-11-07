@@ -9,11 +9,10 @@ export default function Footer() {
             <div className="footer-logo-icon">🌿</div>
             <span>AD <span className="gold">Gardeners</span></span>
           </div>
-          <p>Slough's trusted professional gardening service. Transforming outdoor spaces across Berkshire, Oxfordshire and surrounding areas since 2016.</p>
+          <p>Slough's trusted professional gardening service. Transforming outdoor spaces across all SL postcodes since 2016.</p>
           <div className="footer-socials">
-            <a href="#top" className="social-btn" aria-label="Facebook">📘</a>
-            <a href="#top" className="social-btn" aria-label="Instagram">📸</a>
-            <a href="#top" className="social-btn" aria-label="Twitter">🐦</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="Facebook">📘</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn" aria-label="Instagram">📸</a>
           </div>
         </div>
 
@@ -29,30 +28,24 @@ export default function Footer() {
         <div className="footer-col">
           <h5>Company</h5>
           <ul>
-            {[['About Us','#why'],['Areas Covered','#areas'],['FAQ','#faq'],['Get a Quote','#quote']].map(([label, href]) => (
+            {[['About Us','#why'],['Our Team','#team'],['Reviews','#reviews'],['Areas Covered','#areas'],['FAQ','#faq'],['Get a Quote','#quote']].map(([label, href]) => (
               <li key={label}><a href={href}>{label}</a></li>
             ))}
           </ul>
         </div>
 
         <div className="footer-col">
-          <h5>Contact</h5>
+          <h5>Contact Us</h5>
           <div className="footer-contact-item">
             <span>📞</span>
-            <a href="tel:+447417486966" style={{color:'inherit',textDecoration:'none'}}>+44 7417 486966</a>
+            <a href="tel:07417486966">07417 486966</a>
           </div>
           <div className="footer-contact-item">
             <span>✉️</span>
-            <a href="mailto:adgardeners@gmail.com" style={{color:'inherit',textDecoration:'none'}}>adgardeners@gmail.com</a>
+            <a href="mailto:adgardeners@gmail.com">adgardeners@gmail.com</a>
           </div>
-          <div className="footer-contact-item">
-            <span>📍</span>
-            <span>16 Grant Avenue, Slough, SL1 3NB</span>
-          </div>
-          <div className="footer-contact-item">
-            <span>🕐</span>
-            <span>Mon–Sun: 7am – 7pm</span>
-          </div>
+          <div className="footer-contact-item"><span>📍</span><span>Slough, Berkshire · All SL Postcodes</span></div>
+          <div className="footer-contact-item"><span>🕐</span><span>Mon–Sun: 7am – 7pm</span></div>
         </div>
       </div>
 
